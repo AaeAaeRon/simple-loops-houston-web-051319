@@ -1,6 +1,3 @@
-# REMEMBER: print your output to the terminal using 'puts'
-
-
 def times_iterator(number_of_times)
   number_of_times.times do 
     puts "Welcome to Flatiron School's Web Development Course!"
