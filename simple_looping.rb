@@ -18,19 +18,12 @@ end
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
 
-
-
-def times_iterator(number_of_times)
-  number_of_times.times do 
-    puts "Welcome to Flatiron School's Web Development Course!"
-  end
-end
-
 def while_iterator(number_of_times)
-   number_of_times = 0
-  while number_of_times  number_of_times
-    puts "Welcome to Flatiron School's Web Development Course!"
-    number_of_times += 1 
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  count = 1
+  while count <= number_of_times
+    puts phrase
+    count += 1
   end
 end
 
